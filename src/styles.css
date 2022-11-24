@@ -1,11 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
+h1 {
+    color: navy;
+}
 
-body, input {
+input {
     padding-left: 15px;
-    background-color: darkgray;
+    background-color: rgb(248, 237, 237);
+}
+
+input:hover {
+    border: 2px dashed fuchsia;
 }
 
 p {
-    color: aliceblue;
+    color: rgb(9, 67, 118);
 }
