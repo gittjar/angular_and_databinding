@@ -3,6 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-servers',
   // backticks template!
+  //selector: '[app-servers]',
+  //selector: '.app-servers',
+  templateUrl: './servers.component.html',
+
+  /*
   template: `
 
 <section>
@@ -15,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
   
   `
   ,
+  */
 
   styleUrls: ['./servers.component.css']
 })
