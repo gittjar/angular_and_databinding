@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dream-app-1e632"
+  },
+  "targets": {
+    "dream-app-1e632": {
+      "hosting": {
+        "my-dream-app": [
+          "my-dream-app-jarno"
+        ]
+      }
+    }
+  }
+}
