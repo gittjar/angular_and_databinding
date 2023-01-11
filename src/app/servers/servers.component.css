@@ -6,6 +6,7 @@ h1 {
 
 section {
     background-color: rgb(5, 76, 41);
+    border-radius: 15px;
 }
 
 /*APP SERVERS Säännöt*/

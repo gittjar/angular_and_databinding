@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "my-dream-app:build:production",
+            "firebaseProject": "dream-app-1e632",
+            "firebaseHostingSite": "my-dream-app-jarno"
+          }
         }
       }
     }
