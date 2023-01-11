@@ -3,6 +3,16 @@ h1 {
     color: rgb(243, 246, 224);
     background-color: rgb(48, 117, 83);
 }
+h3 {
+    font-size: 1.1;
+    color: rgb(243, 246, 224);
+    background-color: rgb(48, 117, 83);
+}
+
+
+p {
+    color: rgb(243, 246, 224);
+}
 
 section {
     background-color: rgb(5, 76, 41);

@@ -1,4 +1,6 @@
 
+
+
         <section>
         <h1>I'm in the Servers Component</h1>
         <h1>NET22S. Jarno</h1>
@@ -6,7 +8,21 @@
         </section>
 
         <section>
-        <button [disabled] = "!allowNewServer" class="btn btn-primary">Add Server</button>
+
+        <h3>Your server name is : {{serverName}}</h3>
+        <br>
+
+        <p>Type your server name:</p>
+        <input type="text"
+        class="form-control"
+        (input)="onUpdateServeName($event)">
+        <br>
+                <!-- button bootstrapit lisää -->
+        <button [disabled] = "!allowNewServer" class="btn btn-primary" (click)="onCreateServer()">Add Server</button>
+        <br>
+        <p>Your server status now: {{serverCreationStatus}}</p>
+        <br>
+
         <p>{{allowNewServer}} - tämä on interpolation p-tagin sisällä, tämä näkyy selaimessa!</p> <!--string interpolation-->
         <p [innerHTML]="allowNewServer"> - tämä teksti sen sijaan ei näy selaimessa!</p> <!--property binding-->
         </section>
